@@ -1,0 +1,15 @@
+{
+  "start_error_code": "E_BAD_START",
+  "cont_error_code": "E_BAD_CONTINUATION",
+  "trunc_error_code": "E_TRUNCATED",
+  "block_error_code": "E_BAD_BLOCK",
+  "budget": 5,
+  "total_bytes": 12,
+  "state": { "out": [], "carry": [], "pending": [], "offset": 0, "applied": [] },
+  "blocks": [
+    { "id": 1, "bytes": [228, 189] },
+    { "id": 2, "bytes": [160, 229, 165] },
+    { "id": 3, "bytes": [189, 228, 184, 150] },
+    { "id": 4, "bytes": [231, 149, 140] }
+  ]
+}
